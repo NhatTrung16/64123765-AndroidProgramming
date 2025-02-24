@@ -42,9 +42,6 @@ public class MainActivity extends AppCompatActivity {
         nutCong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //b1 lấy data từ 2 số
-//        EditText so1 = (EditText)findViewById(R.id.edtSo1);
-//        EditText so2 = (EditText)findViewById(R.id.edtSo2);
                 //b1.1 lấy data từ 2 điều khiển trên
                 String strso1 =so1.getText().toString();
                 String strso2 =so2.getText().toString();
@@ -55,8 +52,6 @@ public class MainActivity extends AppCompatActivity {
                 //b2 tính toán
                 float Tong = fso1 + fso2;
                 //b3 hiện kết quả
-                // tìm data
-//        EditText kqua = (EditText)findViewById(R.id.edtKQ);
                 // cbi data xuất, biến thành dạng chuỗi
                 String strkqua = String.valueOf(Tong);
                 //gắn kqua lên đk
@@ -66,9 +61,6 @@ public class MainActivity extends AppCompatActivity {
         nutTru.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //b1 lấy data từ 2 số
-//        EditText so1 = (EditText)findViewById(R.id.edtSo1);
-//        EditText so2 = (EditText)findViewById(R.id.edtSo2);
                 //b1.1 lấy data từ 2 điều khiển trên
                 String strso1 =so1.getText().toString();
                 String strso2 =so2.getText().toString();
@@ -79,8 +71,6 @@ public class MainActivity extends AppCompatActivity {
                 //b2 tính toán
                 float Hieu = fso1 - fso2;
                 //b3 hiện kết quả
-                // tìm data
-//        EditText kqua = (EditText)findViewById(R.id.edtKQ);
                 // cbi data xuất, biến thành dạng chuỗi
                 String strkqua = String.valueOf(Hieu);
                 //gắn kqua lên đk
@@ -90,9 +80,6 @@ public class MainActivity extends AppCompatActivity {
         nutNhan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //b1 lấy data từ 2 số
-//        EditText so1 = (EditText)findViewById(R.id.edtSo1);
-//        EditText so2 = (EditText)findViewById(R.id.edtSo2);
                 //b1.1 lấy data từ 2 điều khiển trên
                 String strso1 =so1.getText().toString();
                 String strso2 =so2.getText().toString();
@@ -103,8 +90,6 @@ public class MainActivity extends AppCompatActivity {
                 //b2 tính toán
                 float Tich = fso1 * fso2;
                 //b3 hiện kết quả
-                // tìm data
-//        EditText kqua = (EditText)findViewById(R.id.edtKQ);
                 // cbi data xuất, biến thành dạng chuỗi
                 String strkqua = String.valueOf(Tich);
                 //gắn kqua lên đk
@@ -114,9 +99,6 @@ public class MainActivity extends AppCompatActivity {
         nutChia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //b1 lấy data từ 2 số
-//        EditText so1 = (EditText)findViewById(R.id.edtSo1);
-//        EditText so2 = (EditText)findViewById(R.id.edtSo2);
                 //b1.1 lấy data từ 2 điều khiển trên
                 String strso1 =so1.getText().toString();
                 String strso2 =so2.getText().toString();
@@ -127,8 +109,6 @@ public class MainActivity extends AppCompatActivity {
                 //b2 tính toán
                 float Thuong = fso1 / fso2;
                 //b3 hiện kết quả
-                // tìm data
-//        EditText kqua = (EditText)findViewById(R.id.edtKQ);
                 // cbi data xuất, biến thành dạng chuỗi
                 String strkqua = String.valueOf(Thuong);
                 //gắn kqua lên đk
