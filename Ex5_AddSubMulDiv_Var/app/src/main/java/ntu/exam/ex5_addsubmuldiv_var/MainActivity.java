@@ -42,12 +42,7 @@ public class MainActivity extends AppCompatActivity {
         //Gắn bộ lắng nghe sk và code xử lý cho từng nút (var)
         nutCong.setOnClickListener(bolangnghe_XuLyCong);
         nutTru.setOnClickListener(bolangnghe_XuLyTru);
-        nutNhan.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                XuLyNhan();
-            }
-        });
+        nutNhan.setOnClickListener(bolangnghe_XuLyNhan);
         nutChia.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -95,22 +90,26 @@ public class MainActivity extends AppCompatActivity {
             kqua.setText(strkqua);
         }
     };
-    void XuLyNhan(){
-        //b1.1 lấy data từ 2 điều khiển trên
-        String strso1 =so1.getText().toString();
-        String strso2 =so2.getText().toString();
-        //b1.3 chuyển data từ chuỗi sang số
-        float fso1 = Float.parseFloat(strso1);
-        float fso2 = Float.parseFloat(strso2);
+    View.OnClickListener bolangnghe_XuLyNhan = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            //b1.1 lấy data từ 2 điều khiển trên
+            String strso1 =so1.getText().toString();
+            String strso2 =so2.getText().toString();
+            //b1.3 chuyển data từ chuỗi sang số
+            float fso1 = Float.parseFloat(strso1);
+            float fso2 = Float.parseFloat(strso2);
 
-        //b2 tính toán
-        float Tich = fso1 * fso2;
-        //b3 hiện kết quả
-        // cbi data xuất, biến thành dạng chuỗi
-        String strkqua = String.valueOf(Tich);
-        //gắn kqua lên đk
-        kqua.setText(strkqua);
-    }
+            //b2 tính toán
+            float Tich = fso1 * fso2;
+            //b3 hiện kết quả
+            // cbi data xuất, biến thành dạng chuỗi
+            String strkqua = String.valueOf(Tich);
+            //gắn kqua lên đk
+            kqua.setText(strkqua);
+        }
+    };
+
     void XuLyChia(){
         //b1.1 lấy data từ 2 điều khiển trên
         String strso1 =so1.getText().toString();
