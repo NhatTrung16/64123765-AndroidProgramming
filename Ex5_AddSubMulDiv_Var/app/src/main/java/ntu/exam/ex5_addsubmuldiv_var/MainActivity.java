@@ -43,12 +43,7 @@ public class MainActivity extends AppCompatActivity {
         nutCong.setOnClickListener(bolangnghe_XuLyCong);
         nutTru.setOnClickListener(bolangnghe_XuLyTru);
         nutNhan.setOnClickListener(bolangnghe_XuLyNhan);
-        nutChia.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                XuLyChia();
-            }
-        });
+        nutChia.setOnClickListener(bolangnghe_XuLyChia);
     }
 
     View.OnClickListener bolangnghe_XuLyCong = new View.OnClickListener() {
@@ -110,21 +105,23 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
-    void XuLyChia(){
-        //b1.1 lấy data từ 2 điều khiển trên
-        String strso1 =so1.getText().toString();
-        String strso2 =so2.getText().toString();
-        //b1.3 chuyển data từ chuỗi sang số
-        float fso1 = Float.parseFloat(strso1);
-        float fso2 = Float.parseFloat(strso2);
+    View.OnClickListener bolangnghe_XuLyChia = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            //b1.1 lấy data từ 2 điều khiển trên
+            String strso1 =so1.getText().toString();
+            String strso2 =so2.getText().toString();
+            //b1.3 chuyển data từ chuỗi sang số
+            float fso1 = Float.parseFloat(strso1);
+            float fso2 = Float.parseFloat(strso2);
 
-        //b2 tính toán
-        float Thuong = fso1 / fso2;
-        //b3 hiện kết quả
-        // cbi data xuất, biến thành dạng chuỗi
-        String strkqua = String.valueOf(Thuong);
-        //gắn kqua lên đk
-        kqua.setText(strkqua);
-    }
-
+            //b2 tính toán
+            float Thuong = fso1 / fso2;
+            //b3 hiện kết quả
+            // cbi data xuất, biến thành dạng chuỗi
+            String strkqua = String.valueOf(Thuong);
+            //gắn kqua lên đk
+            kqua.setText(strkqua);
+        }
+    };
 }
