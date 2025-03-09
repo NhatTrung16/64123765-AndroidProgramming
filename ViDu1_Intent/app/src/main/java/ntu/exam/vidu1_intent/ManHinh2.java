@@ -1,6 +1,8 @@
 package ntu.exam.vidu1_intent;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -26,7 +28,16 @@ public class ManHinh2 extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        TimDieuKhien();
+        nutQuayVe.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // tao intent
+                Intent intentMH1 = new Intent(ManHinh2.this, MainActivity.class);
+                startActivity(intentMH1);
+            }
+        });
     }
-    TimDieuKhien();
+
 
 }
