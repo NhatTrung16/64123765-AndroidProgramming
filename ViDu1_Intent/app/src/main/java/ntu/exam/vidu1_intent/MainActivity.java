@@ -1,6 +1,9 @@
 package ntu.exam.vidu1_intent;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,7 +12,10 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
-
+    Button nutChuyen;
+    void TimDieuKhien(){
+        nutChuyen = (Button) findViewById(R.id.btnCMH);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,6 +25,15 @@ public class MainActivity extends AppCompatActivity {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
+        });
+        TimDieuKhien();
+        nutChuyen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // tao intent
+                Intent intentMH2 = new Intent(MainActivity.this, ManHinh2.class);
+                startActivity(intentMH2);
+            }
         });
     }
 }
