@@ -11,3 +11,17 @@ Giao diện màn hình đăng nhập
 Giao diện màn hình chính
 - Đăng nhập đúng sẽ chuyển sang trang màn hình chính
   ![image](https://github.com/user-attachments/assets/8a58eb3e-c407-4d73-b81c-ef8df60e9a3b)
+
+Thực hành 6: Ex6_IntentDonGian
+
+![image](https://github.com/user-attachments/assets/b2b6a2ef-4b19-4916-a7cf-22f1fb2eaba7)
+
+Màn hình 2
+
+![image](https://github.com/user-attachments/assets/6f5f5c36-fc86-4add-bd0c-9c8df5f0e94d)
+
+Màn hình 3
+
+![image](https://github.com/user-attachments/assets/7b2f4443-fe4c-4993-be36-3b5c0bc73e94)
+
+
