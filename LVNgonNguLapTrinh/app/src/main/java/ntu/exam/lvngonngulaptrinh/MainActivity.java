@@ -1,8 +1,11 @@
 package ntu.exam.lvngonngulaptrinh;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -37,8 +40,22 @@ public class MainActivity extends AppCompatActivity {
         dsNgonNguLT.add("R");
         // b2
         ArrayAdapter<String> adapterNNLT;
-        adapterNNLT = new ArrayAdapter<String>()
+        adapterNNLT = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, dsNgonNguLT);
 
+        //b3 gan adapter
+        listViewNNLT.setAdapter(adapterNNLT);
+
+        //b4 gắn bộ lắng nghe và xử lý sk
+        listViewNNLT.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                //biến position đã chứa vị trí của item được click
+                String giatriduocchon = dsNgonNguLT.get(position);
+                //làm theo yêu cầu bất kỳ đói với giá trị get được
+                //vd toast lên
+                Toast.makeText(MainActivity.this, giatriduocchon, Toast.LENGTH_LONG).show();
+            }
+        });
 
     }
 
