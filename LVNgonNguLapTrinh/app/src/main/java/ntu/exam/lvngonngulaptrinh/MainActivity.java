@@ -1,6 +1,8 @@
 package ntu.exam.lvngonngulaptrinh;
 
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -8,7 +10,12 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
+
+    ListView listViewNNLT;
+    ArrayList<String> dsNgonNguLT;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,5 +27,19 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        listViewNNLT = findViewById(R.id.LView);
+        //chbi data
+        dsNgonNguLT = new ArrayList<String>();
+        dsNgonNguLT.add("Python");
+        dsNgonNguLT.add("PHP");
+        dsNgonNguLT.add("Java");
+        dsNgonNguLT.add("C/C++");
+        dsNgonNguLT.add("R");
+        // b2
+        ArrayAdapter<String> adapterNNLT;
+        adapterNNLT = new ArrayAdapter<String>()
+
+
     }
+
 }
