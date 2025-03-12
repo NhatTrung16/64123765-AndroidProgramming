@@ -7,11 +7,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center_vertical|center_horizontal"
+    android:background="#7DBAEB"
     tools:context=".LoginActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textStyle="bold"
         android:text="MÀN HÌNH ĐĂNG NHẬP"
         android:textSize="30dp"/>
     <LinearLayout
@@ -19,6 +22,7 @@
         android:layout_height="wrap_content"
         android:padding="20dp">
         <com.google.android.material.textfield.TextInputLayout
+            android:textColorHint="@color/black"
             android:hint="Username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -33,6 +37,7 @@
         android:layout_height="wrap_content"
         android:padding="20dp">
         <com.google.android.material.textfield.TextInputLayout
+            android:textColorHint="@color/black"
             android:hint="PassWord"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -47,10 +52,12 @@
         android:layout_height="wrap_content"
         android:padding="20dp">
         <com.google.android.material.textfield.TextInputLayout
+            android:textColorHint="@color/black"
             android:hint="UserEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <com.google.android.material.textfield.TextInputEditText
+                android:textColor="#0529EF"
                 android:id="@+id/edtMail"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"/>
