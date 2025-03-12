@@ -24,4 +24,22 @@ Màn hình 3
 
 ![image](https://github.com/user-attachments/assets/7b2f4443-fe4c-4993-be36-3b5c0bc73e94)
 
+Thực hành 7: Ex7_IntentLogin
+Màn hình chính
+
+![image](https://github.com/user-attachments/assets/7b666a9d-784c-4f1c-95f4-fd2d21b2c773)
+
+Màn hình đăng nhập
+
+![image](https://github.com/user-attachments/assets/66ce4a1d-f0e1-4a48-b16b-b1e65e9f5236)
+
+Màn hình đăng nhập nếu nhập sai thông tin
+
+![image](https://github.com/user-attachments/assets/c387c0e3-b62a-4068-b9de-7a1d5980f532)
+
+Màn hình chính
+
+![image](https://github.com/user-attachments/assets/b705668c-9f80-4263-a3fc-42f1cd796c2f)
+
+
 
