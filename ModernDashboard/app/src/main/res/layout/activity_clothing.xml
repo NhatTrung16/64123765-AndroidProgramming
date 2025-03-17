@@ -23,6 +23,7 @@
         android:layout_width="500dp"
         android:layout_height="500dp"
         android:id="@+id/clothImage"
+        android:paddingTop="50dp"
         android:layout_below="@id/clothTitle"
         android:src="@drawable/clothing"/>
 
