@@ -45,6 +45,9 @@ Thực hành LoginPage
 
 ![image](https://github.com/user-attachments/assets/0280606f-590e-4a0e-a344-1941c75a809e)
 
+Thực hành Modern Dashboard
+
+![image](https://github.com/user-attachments/assets/7569566e-ef23-4d19-b0ca-62cde87a43cd)
 
 
 
