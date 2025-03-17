@@ -41,5 +41,10 @@ Màn hình chính
 
 ![image](https://github.com/user-attachments/assets/b705668c-9f80-4263-a3fc-42f1cd796c2f)
 
+Thực hành LoginPage
+
+![image](https://github.com/user-attachments/assets/0280606f-590e-4a0e-a344-1941c75a809e)
+
+
 
 
