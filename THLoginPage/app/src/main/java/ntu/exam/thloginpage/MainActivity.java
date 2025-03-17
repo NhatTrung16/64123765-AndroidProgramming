@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     EditText password;
     Button loginbtn;
 
-    void TimDieuKhien(){
+    public void TimDieuKhien(){
         username = findViewById(R.id.username);
         password = findViewById(R.id.password);
         loginbtn = findViewById(R.id.loginButton);
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-
+        TimDieuKhien();
         loginbtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
