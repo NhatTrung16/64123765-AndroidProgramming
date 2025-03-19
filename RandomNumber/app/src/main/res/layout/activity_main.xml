@@ -14,8 +14,10 @@
         android:layout_marginTop="70dp"
         android:orientation="horizontal"
         android:layout_height="wrap_content">
-        <EditText
-            android:id="@+id/edtSoA"
+        <TextView
+            android:id="@+id/tvSoA"
+            android:textStyle="bold"
+            android:textAlignment="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25dp"
@@ -25,8 +27,10 @@
             android:layout_height="wrap_content"
             android:text="\t\t+\t\t"
             android:textSize="30dp"/>
-        <EditText
-            android:id="@+id/edtSoB"
+        <TextView
+            android:id="@+id/tvSoB"
+            android:textAlignment="center"
+            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25dp"
@@ -44,8 +48,8 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-        <EditText
-            android:id="@+id/edtDapAn"
+        <TextView
+            android:id="@+id/tvDapAn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="30dp"
@@ -57,8 +61,8 @@
         android:layout_width="match_parent"
         android:layout_marginTop="50dp"
         android:layout_height="wrap_content">
-        <EditText
-            android:id="@+id/edtKetQua"
+        <TextView
+            android:id="@+id/tvKetQua"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"

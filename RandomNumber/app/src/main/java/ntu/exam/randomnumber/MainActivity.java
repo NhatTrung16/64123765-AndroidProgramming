@@ -3,6 +3,7 @@ package ntu.exam.randomnumber;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -13,7 +14,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     Button btnKiemTra, btnSo1, btnSo2, btnSo3, btnSo4, btnSo5, btnSo6, btnSo7, btnSo8, btnSo9;
-    EditText edtSoA, edtSoB, edtKetQua, edtDapAn;
+    TextView tvSoA, tvSoB, tvKetQua, tvDapAn;
     void TimDieuKhien(){
         btnKiemTra = (Button) findViewById(R.id.btnKiemTra);
         btnSo1 = (Button) findViewById(R.id.btnSo1);
@@ -25,10 +26,10 @@ public class MainActivity extends AppCompatActivity {
         btnSo7 = (Button) findViewById(R.id.btnSo7);
         btnSo8 = (Button) findViewById(R.id.btnSo8);
         btnSo9 = (Button) findViewById(R.id.btnSo9);
-        edtSoA = (EditText) findViewById(R.id.edtSoA);
-        edtSoB = (EditText) findViewById(R.id.edtSoB);
-        edtKetQua = (EditText) findViewById(R.id.edtKetQua);
-        edtDapAn = (EditText) findViewById(R.id.edtDapAn);
+        tvSoA = (TextView) findViewById(R.id.tvSoA);
+        tvSoB = (TextView) findViewById(R.id.tvSoB);
+        tvKetQua = (TextView) findViewById(R.id.tvKetQua);
+        tvDapAn = (TextView) findViewById(R.id.tvDapAn);
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,5 +41,14 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+        TimDieuKhien();
+        //Sinh so ngau nhien
+        int a = (int)(Math.random()*5);
+        int b = (int)(Math.random()*5);
+        int kqDung = (a+b);
+
+        tvSoA.setText(String.valueOf(a));
+        tvSoB.setText(String.valueOf(b));
+
     }
 }
