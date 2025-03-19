@@ -106,5 +106,23 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        btnKiemTra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //lấy dữ liệu từ tvDapAn về
+                String strDapAn = tvDapAn.getText().toString();
+
+                if(strDapAn.isEmpty()){
+                    tvKetQua.setText("Bạn chưa chọn đáp án!");
+                    return;
+                }
+                int dapan = Integer.parseInt(strDapAn);
+
+                if(dapan == kqDung){
+                    tvKetQua.setText("Kết quả đúng!");
+                }
+                else tvKetQua.setText("Kết quả sai!");
+            }
+        });
     }
 }
