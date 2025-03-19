@@ -13,7 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     Button btnKiemTra, btnSo1, btnSo2, btnSo3, btnSo4, btnSo5, btnSo6, btnSo7, btnSo8, btnSo9;
-    EditText edtSoA, edtSoB, edtKetQua;
+    EditText edtSoA, edtSoB, edtKetQua, edtDapAn;
     void TimDieuKhien(){
         btnKiemTra = (Button) findViewById(R.id.btnKiemTra);
         btnSo1 = (Button) findViewById(R.id.btnSo1);
@@ -25,7 +25,10 @@ public class MainActivity extends AppCompatActivity {
         btnSo7 = (Button) findViewById(R.id.btnSo7);
         btnSo8 = (Button) findViewById(R.id.btnSo8);
         btnSo9 = (Button) findViewById(R.id.btnSo9);
-        edtSoA = (EditText) findViewById()
+        edtSoA = (EditText) findViewById(R.id.edtSoA);
+        edtSoB = (EditText) findViewById(R.id.edtSoB);
+        edtKetQua = (EditText) findViewById(R.id.edtKetQua);
+        edtDapAn = (EditText) findViewById(R.id.edtDapAn);
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
