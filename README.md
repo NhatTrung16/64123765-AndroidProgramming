@@ -49,5 +49,11 @@ Thực hành Modern Dashboard
 
 ![image](https://github.com/user-attachments/assets/7569566e-ef23-4d19-b0ca-62cde87a43cd)
 
+Thực hành ví dụ sinh số ngẫu nhiên
+
+![image](https://github.com/user-attachments/assets/69447c02-d9a9-41de-8faa-855df19f0947)
+
+![image](https://github.com/user-attachments/assets/06eebe58-e76c-4117-bd21-6c4c629dfde5)
+
 
 
