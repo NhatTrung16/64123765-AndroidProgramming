@@ -1,6 +1,7 @@
 package ntu.exam.randomnumber;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -49,6 +50,61 @@ public class MainActivity extends AppCompatActivity {
 
         tvSoA.setText(String.valueOf(a));
         tvSoB.setText(String.valueOf(b));
+
+        btnSo1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tvDapAn.setText("1");
+            }
+        });
+        btnSo2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tvDapAn.setText("2");
+            }
+        });
+        btnSo3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tvDapAn.setText("3");
+            }
+        });
+        btnSo4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tvDapAn.setText("4");
+            }
+        });
+        btnSo5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tvDapAn.setText("5");
+            }
+        });
+        btnSo6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tvDapAn.setText("6");
+            }
+        });
+        btnSo7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tvDapAn.setText("7");
+            }
+        });
+        btnSo8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tvDapAn.setText("8");
+            }
+        });
+        btnSo9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                tvDapAn.setText("9");
+            }
+        });
 
     }
 }
