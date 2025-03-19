@@ -15,20 +15,22 @@
         android:orientation="horizontal"
         android:layout_height="wrap_content">
         <EditText
+            android:id="@+id/edtSoA"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25dp"
-            android:hint="Số thứ 1"/>
+            android:hint="Số A"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="\t\t+\t\t"
             android:textSize="30dp"/>
         <EditText
+            android:id="@+id/edtSoB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="25dp"
-            android:hint="Số thứ 2"/>
+            android:hint="Số B"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
@@ -37,12 +39,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="="
-            android:textSize="30dp"
+            android:textSize="30dp"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <EditText
+            android:id="@+id/edtDapAn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="30dp"
@@ -55,6 +58,7 @@
         android:layout_marginTop="50dp"
         android:layout_height="wrap_content">
         <EditText
+            android:id="@+id/edtKetQua"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
@@ -66,6 +70,7 @@
         android:layout_marginTop="40dp"
         android:layout_height="wrap_content">
         <Button
+            android:id="@+id/btnKiemTra"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Kiểm tra đáp án"
@@ -81,18 +86,21 @@
         android:gravity="center_horizontal"
         android:layout_height="wrap_content">
         <Button
+            android:id="@+id/btnSo1"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="1"
             android:layout_margin="15dp"
             android:textSize="25dp"/>
         <Button
+            android:id="@+id/btnSo2"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="2"
             android:layout_margin="15dp"
             android:textSize="25dp"/>
         <Button
+            android:id="@+id/btnSo3"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="3"
@@ -105,18 +113,21 @@
         android:gravity="center_horizontal"
         android:layout_height="wrap_content">
         <Button
+            android:id="@+id/btnSo4"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="4"
             android:layout_margin="15dp"
             android:textSize="25dp"/>
         <Button
+            android:id="@+id/btnSo5"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="5"
             android:layout_margin="15dp"
             android:textSize="25dp"/>
         <Button
+            android:id="@+id/btnSo6"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="6"
@@ -129,24 +140,26 @@
         android:gravity="center_horizontal"
         android:layout_height="wrap_content">
         <Button
+            android:id="@+id/btnSo7"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="7"
             android:layout_margin="15dp"
             android:textSize="25dp"/>
         <Button
+            android:id="@+id/btnSo8"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="8"
             android:layout_margin="15dp"
             android:textSize="25dp"/>
         <Button
+            android:id="@+id/btnSo9"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="9"
             android:layout_margin="15dp"
             android:textSize="25dp"/>
     </LinearLayout>
-
 
 </LinearLayout>

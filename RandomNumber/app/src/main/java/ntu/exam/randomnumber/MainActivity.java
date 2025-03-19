@@ -1,6 +1,8 @@
 package ntu.exam.randomnumber;
 
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.EditText;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +12,21 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
 
+    Button btnKiemTra, btnSo1, btnSo2, btnSo3, btnSo4, btnSo5, btnSo6, btnSo7, btnSo8, btnSo9;
+    EditText edtSoA, edtSoB, edtKetQua;
+    void TimDieuKhien(){
+        btnKiemTra = (Button) findViewById(R.id.btnKiemTra);
+        btnSo1 = (Button) findViewById(R.id.btnSo1);
+        btnSo2 = (Button) findViewById(R.id.btnSo2);
+        btnSo3 = (Button) findViewById(R.id.btnSo3);
+        btnSo4 = (Button) findViewById(R.id.btnSo4);
+        btnSo5 = (Button) findViewById(R.id.btnSo5);
+        btnSo6 = (Button) findViewById(R.id.btnSo6);
+        btnSo7 = (Button) findViewById(R.id.btnSo7);
+        btnSo8 = (Button) findViewById(R.id.btnSo8);
+        btnSo9 = (Button) findViewById(R.id.btnSo9);
+        edtSoA = (EditText) findViewById()
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
