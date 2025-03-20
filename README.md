@@ -1,6 +1,18 @@
 # 64123765-AndroidProgramming
 Các bài thực hành android
 
+Thực hành ví dụ sinh số ngẫu nhiên
+- Update thêm giao diện
+  
+  ![image](https://github.com/user-attachments/assets/5e7bfbf5-7f57-43c0-b3e7-6b05203b4139)
+
+  ![image](https://github.com/user-attachments/assets/612d2530-82db-4873-a997-4b8afac0f06e)
+
+![image](https://github.com/user-attachments/assets/69447c02-d9a9-41de-8faa-855df19f0947)
+
+![image](https://github.com/user-attachments/assets/06eebe58-e76c-4117-bd21-6c4c629dfde5)
+
+
 Ví dụ 2 về Intent
 Giao diện màn hình đăng nhập ban đầu
 ![image](https://github.com/user-attachments/assets/f4038df5-a190-45f9-be44-cf3984713957)
@@ -48,12 +60,4 @@ Thực hành LoginPage
 Thực hành Modern Dashboard
 
 ![image](https://github.com/user-attachments/assets/7569566e-ef23-4d19-b0ca-62cde87a43cd)
-
-Thực hành ví dụ sinh số ngẫu nhiên
-
-![image](https://github.com/user-attachments/assets/69447c02-d9a9-41de-8faa-855df19f0947)
-
-![image](https://github.com/user-attachments/assets/06eebe58-e76c-4117-bd21-6c4c629dfde5)
-
-
 
