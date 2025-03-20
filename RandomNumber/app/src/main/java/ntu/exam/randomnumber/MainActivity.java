@@ -120,8 +120,12 @@ public class MainActivity extends AppCompatActivity {
 
                 if(dapan == kqDung){
                     tvKetQua.setText("Kết quả đúng!");
+                    tvKetQua.setTextColor(getResources().getColor(R.color.rightAS,null));
                 }
-                else tvKetQua.setText("Kết quả sai!");
+                else {
+                    tvKetQua.setText("Kết quả sai!");
+                    tvKetQua.setTextColor(getResources().getColor(R.color.wrongAS,null));
+                }
             }
         });
     }

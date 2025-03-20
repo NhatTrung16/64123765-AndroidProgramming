@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
+    android:background="@drawable/background"
     android:orientation="vertical"
 
     tools:context=".MainActivity">
@@ -17,13 +18,16 @@
         <TextView
             android:id="@+id/tvSoA"
             android:textStyle="bold"
+            android:textColor="@color/green"
+            android:textColorHint="@color/green"
             android:textAlignment="center"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="25dp"
+            android:textSize="40dp"
             android:hint="Số A"/>
         <TextView
             android:layout_width="wrap_content"
+            android:textColor="@color/lightyellow"
             android:layout_height="wrap_content"
             android:text="\t\t+\t\t"
             android:textSize="30dp"/>
@@ -31,9 +35,11 @@
             android:id="@+id/tvSoB"
             android:textAlignment="center"
             android:textStyle="bold"
+            android:textColor="@color/green"
+            android:textColorHint="@color/green"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="25dp"
+            android:textSize="40dp"
             android:hint="Số B"/>
     </LinearLayout>
     <LinearLayout
@@ -42,6 +48,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:textColor="@color/lightyellow"
             android:text="="
             android:textSize="30dp"/>
     </LinearLayout>
@@ -52,7 +59,7 @@
             android:id="@+id/tvDapAn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="30dp"
+            android:textSize="40dp"
             android:textAlignment="center"
             android:textStyle="bold"
             android:textColor="#D5C216"
@@ -68,7 +75,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textAlignment="center"
-            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textSize="30dp"
             android:hint="thông báo kết quả ở đây!"/>
     </LinearLayout>
     <LinearLayout
@@ -80,7 +88,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Kiểm tra đáp án"
-            android:textSize="20dp"
+            android:textSize="25dp"
             android:backgroundTint="#2160F3">
         </Button>
 
@@ -88,11 +96,12 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:textAlignment="center"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="100dp"
         android:gravity="center_horizontal"
         android:layout_height="wrap_content">
         <Button
             android:id="@+id/btnSo1"
+            android:backgroundTint="@color/light_orange"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="1"
@@ -100,6 +109,7 @@
             android:textSize="25dp"/>
         <Button
             android:id="@+id/btnSo2"
+            android:backgroundTint="@color/light_orange"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="2"
@@ -107,6 +117,7 @@
             android:textSize="25dp"/>
         <Button
             android:id="@+id/btnSo3"
+            android:backgroundTint="@color/light_orange"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="3"
@@ -120,6 +131,7 @@
         android:layout_height="wrap_content">
         <Button
             android:id="@+id/btnSo4"
+            android:backgroundTint="@color/light_orange"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="4"
@@ -127,6 +139,7 @@
             android:textSize="25dp"/>
         <Button
             android:id="@+id/btnSo5"
+            android:backgroundTint="@color/light_orange"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="5"
@@ -134,6 +147,7 @@
             android:textSize="25dp"/>
         <Button
             android:id="@+id/btnSo6"
+            android:backgroundTint="@color/light_orange"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="6"
@@ -147,6 +161,7 @@
         android:layout_height="wrap_content">
         <Button
             android:id="@+id/btnSo7"
+            android:backgroundTint="@color/light_orange"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="7"
@@ -154,6 +169,7 @@
             android:textSize="25dp"/>
         <Button
             android:id="@+id/btnSo8"
+            android:backgroundTint="@color/light_orange"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="8"
@@ -161,6 +177,7 @@
             android:textSize="25dp"/>
         <Button
             android:id="@+id/btnSo9"
+            android:backgroundTint="@color/light_orange"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="9"
