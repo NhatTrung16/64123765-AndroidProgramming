@@ -1,6 +1,10 @@
 # 64123765-AndroidProgramming
 Các bài thực hành android
 
+Thực hành Statically Fragment
+
+![image](https://github.com/user-attachments/assets/d74eff7e-fa69-457a-9db8-0b92aaf34daf)
+
 Thực hành ví dụ sinh số ngẫu nhiên
 - Update thêm giao diện
   
