@@ -13,13 +13,13 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:background="#A47171"
-        app:layout_constraintBottom_toTopOf="@+id/fragmentContainerView2"
+        app:layout_constraintBottom_toTopOf="@+id/fragmentContainerView_Footer"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView2"
+        android:id="@+id/fragmentContainerView_Footer"
         android:name="ntu.exam.replacedynamicallyfragment.FooterFragment"
         android:layout_width="0dp"
         android:layout_height="100dp"
