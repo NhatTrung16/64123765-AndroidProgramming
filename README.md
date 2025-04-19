@@ -1,6 +1,22 @@
 # 64123765-AndroidProgramming
 Các bài thực hành android
 
+Thực hành Replace Dynamically Fragment
+
+![image](https://github.com/user-attachments/assets/affe43c1-2395-47a5-9f0b-457e1f57ad82)
+
+  - One
+
+    ![image](https://github.com/user-attachments/assets/1e3889b1-a7f1-4d83-8301-d2780585e95e)
+    
+  - Two
+
+    ![image](https://github.com/user-attachments/assets/2c646ec0-e60e-411e-ac66-871f4b092798)
+
+  - Three
+
+    ![image](https://github.com/user-attachments/assets/25c2ca74-1c49-4db6-ad5b-cfb6617eaf69)
+
 Thực hành Dynamically Fragment
 
 ![image](https://github.com/user-attachments/assets/f59bb85d-9ab7-42c3-92d6-58ddae5df9ff)
