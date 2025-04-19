@@ -1,6 +1,10 @@
 # 64123765-AndroidProgramming
 Các bài thực hành android
 
+Thực hành Dynamically Fragment
+
+![image](https://github.com/user-attachments/assets/f59bb85d-9ab7-42c3-92d6-58ddae5df9ff)
+
 Thực hành Statically Fragment
 
 ![image](https://github.com/user-attachments/assets/d74eff7e-fa69-457a-9db8-0b92aaf34daf)
