@@ -1,6 +1,10 @@
 # 64123765-AndroidProgramming
 Các bài thực hành android
 
+Thực hành Button Navigation (Chuyển fragment)
+
+![image](https://github.com/user-attachments/assets/2186ef2b-dfa9-4d1c-8348-7ff4c47f16ff)
+
 Thực hành Replace Dynamically Fragment
 
 ![image](https://github.com/user-attachments/assets/affe43c1-2395-47a5-9f0b-457e1f57ad82)
